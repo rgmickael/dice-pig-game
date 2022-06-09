@@ -1,0 +1,52 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+
+.board{
+	background-color: lightgreen;
+	padding: 5px;
+}
+
+.active{
+	background-color: lightgrey;
+}
+
+.display{
+	background-color: lightgrey;
+	justify-content: center;
+	margin: 10px;
+	padding: 25px;
+}
+
+.dice img{
+	width: 100px !important;
+}
+
+.display .action{
+	margin-top: 15px;
+}
+
+.btn-action{
+	padding: 10px;
+	background-color: lightgreen;
+	color: #000;
+	cursor: pointer;
+	border: 1px solid lightgreen;
+	transition: color 0.2s ease-in;
+	outline: none;
+}
+
+.btn-action:active{
+	padding: 10px;
+	background-color: yellow;
+	color: #000;
+	cursor: pointer;
+	border: 1px solid yellow;
+	outline: none;
+}
