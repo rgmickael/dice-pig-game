@@ -11,10 +11,34 @@ body{
 .board{
 	background-color: lightgreen;
 	padding: 5px;
+	margin: 10px;
+}
+
+.score{
+	justify-content: center;
+	text-align: center;
+}
+
+.board strong{
+	font-size: 36px;
+	justify-content: center;
 }
 
 .active{
 	background-color: lightgrey;
+}
+
+.winner{
+	background-color: yellow;
+}
+
+.current{
+	background-color: #fff;
+	padding: 5px;
+	margin: 5px;
+	font-weight: bolder;
+	width: 100px;
+	text-align: center;
 }
 
 .display{

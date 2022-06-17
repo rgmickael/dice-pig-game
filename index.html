@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>.: Dice Roll Game</title>
+	<title>.: PigGame</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
@@ -11,30 +11,36 @@
 	<div class="container">
 		<div class="row display">
 			<div class="col-md-12 text-center">
-				<button class="btn-action">
+				<button class="btn-action" id="btn-new">
 					New Game
 				</button>
 			</div>
 		</div>
 		<div class="row board">
-			<div class="col-md-6 player-one active">
+			<div class="col-md-6 score player-0 active">
 				<h2>Player One</h2>
-				<strong>Score</strong>
+				<strong id="score-0" class="text-center">Score</strong>
+				<div class="current" id="current-0">
+					
+				</div>
 			</div>
-			<div class="col-md-6 player-two">
+			<div class="col-md-6 score player-1">
 				<h2>Player Two</h2>
-				<strong>Score</strong>
+				<strong id="score-1">Score</strong>
+				<div class="current" id="current-1">
+					
+				</div>
 			</div>
 		</div>
-		<div class="row display">
+		<div class="row display" id="buttons">
 			<div class="dice col-md-12 text-center">
 				<img src="images/dice_1.png" alt="">
 			</div>
 			<div class="action col-md-12 text-center">
-				<button class="btn-action">
+				<button class="btn-action" id="btn-hold">
 					Hold
 				</button>
-				<button class="btn-action">
+				<button class="btn-action" id="btn-roll">
 					Roll the Dice
 				</button>
 			</div>
